@@ -4,6 +4,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 
 add_executable( MonteCarloProjectC++
-        Asian.h Asian.cpp BlackScholesModel.cpp BlackScholesModel.h Complex.cpp Complex.h
-        Digital.cpp Digital.h European.cpp European.h  main.cpp MonteCarloPricer.cpp MonteCarloPricer.h
-        PathDependentOption.cpp PathDependentOption.h PathIndependentOption.cpp PathIndependentOption.h PriceCI.cpp PriceCI.h)
+        Pricer/Asian.h Pricer/Asian.cpp Pricer/BlackScholesModel.cpp Pricer/BlackScholesModel.h Pricer/Complex.cpp Pricer/Complex.h
+        Pricer/Digital.cpp Pricer/Digital.h Pricer/European.cpp Pricer/European.h Pricer/main.cpp Pricer/MonteCarloPricer.cpp Pricer/MonteCarloPricer.h
+        Pricer/PathDependentOption.cpp Pricer/PathDependentOption.h Pricer/PathIndependentOption.cpp Pricer/PathIndependentOption.h Pricer/PriceCI.cpp Pricer/PriceCI.h)
